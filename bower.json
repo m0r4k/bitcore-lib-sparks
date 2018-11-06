@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-lib-sparks",
-  "main": "./bitcore-lib-sparks.min.js",
+  "name": "sparkscore-lib",
+  "main": "./sparkscore-lib.min.js",
   "version": "0.15.3",
-  "homepage": "https://github.com/sparksevo/bitcore-lib-sparks",
+  "homepage": "https://github.com/sparksevo/sparkscore-lib",
   "authors": [
     "sparks", "BitPay, Inc."
   ],
