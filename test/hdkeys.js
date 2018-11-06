@@ -10,7 +10,7 @@
 /* jshint maxstatements: 100 */
 /* jshint unused: false */
 
-var _ = require('losparks');
+var _ = require('lodash');
 var should = require('chai').should();
 var expect = require('chai').expect;
 var sinon = require('sinon');
