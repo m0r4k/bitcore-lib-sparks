@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build-sparks');
+var bitcoreTasks = require('sparkscore-lib');
 
 bitcoreTasks('lib-sparks');
