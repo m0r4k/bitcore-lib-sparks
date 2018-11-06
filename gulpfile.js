@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build-dash');
+var bitcoreTasks = require('bitcore-build-sparks');
 
-bitcoreTasks('lib-dash');
+bitcoreTasks('lib-sparks');
