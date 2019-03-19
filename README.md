@@ -1,7 +1,7 @@
 sparkscore Library
 ================
 
-[![NPM Package](https://img.shields.io/npm/v/@sparksevo/sparkscore-lib.svg?style=flat-square)](https://www.npmjs.org/package/@sparksevo/sparkscore-lib)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-lib-sparks.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib-sparks)
 [![Build Status](https://img.shields.io/travis/sparksevo/sparkscore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/sparksevo/sparkscore-lib)
 [![Coverage Status](https://img.shields.io/coveralls/sparksevo/sparkscore-lib.svg?style=flat-square)](https://coveralls.io/github/sparksevo/sparkscore-lib?branch=master)
 
@@ -14,7 +14,7 @@ sparks is a powerful new peer-to-peer platform for the next generation of financ
 ## Get Started
 ### NodeJS
 ```
-npm install @sparksevo/sparkscore-lib
+npm install bitcore-lib-sparks
 ```
 
 ### Browser
