@@ -243,7 +243,7 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add dashevo git@github.com:sparksevo/bitcore-lib-sparks.git
+git remote add dashevo git@github.com:bitcore-lib-sparks.git
 git pull --rebase dashevo master
 ```
 

@@ -1,6 +1,6 @@
 # Sparkscore Library
 
-[![Build Status](https://img.shields.io/travis/sparksevo/bitcore-lib-sparks.svg?branch=master)](https://travis-ci.org/sparksevo/bitcore-lib-sparks)
+[![Build Status](https://img.shields.io/travis/bitcore-lib-sparks.svg?branch=master)](https://travis-ci.org/bitcore-lib-sparks)
 [![NPM Package](https://img.shields.io/npm/v/bitcore-lib-sparks.svg)](https://www.npmjs.org/package/bitcore-lib-sparks)
 
 > A pure and powerful JavaScript Sparks library.

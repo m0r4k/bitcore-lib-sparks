@@ -23,5 +23,5 @@ deploy:
     skip_cleanup: true
     script: npm publish
     on:
-      repo: sparksevo/sparkscore-lib
+      repo: bitcore-lib-sparks
       branch: master
