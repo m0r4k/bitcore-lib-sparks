@@ -1,6 +1,6 @@
 # Sparkscore Library
 
-[![Build Status](https://img.shields.io/travis/sparksevo/sparkscore-lib.svg?branch=master)](https://travis-ci.org/sparksevo/sparkscore-lib)
+[![Build Status](https://img.shields.io/travis/sparksevo/bitcore-lib-sparks.svg?branch=master)](https://travis-ci.org/sparksevo/bitcore-lib-sparks)
 [![NPM Package](https://img.shields.io/npm/v/bitcore-lib-sparks.svg)](https://www.npmjs.org/package/bitcore-lib-sparks)
 
 > A pure and powerful JavaScript Sparks library.
@@ -24,24 +24,24 @@ npm install bitcore-lib-sparks
 
 ### Browser
 
-See the section below to generate your own bundle, or download the pre-generated [minified file](dist/sparkscore-lib.min.js)
+See the section below to generate your own bundle, or download the pre-generated [minified file](dist/bitcore-lib-sparks.min.js)
 
 #### Building the Browser Bundle
 
-To build a sparkscore-lib full bundle for the browser:
+To build a bitcore-lib-sparks full bundle for the browser:
 
 ```sh
 npm run build
 ```
 
-This will generate files named `sparkscore-lib.js` and `sparkscore-lib.min.js` in the `dist/` folder.
+This will generate files named `bitcore-lib-sparks.js` and `bitcore-lib-sparks.min.js` in the `dist/` folder.
 
 ## Usage
 
 ### Browser
 
 ```
-<script src='./dist/sparkscore-lib.min.js' type="text/javascript"></script>
+<script src='./dist/bitcore-lib-sparks.min.js' type="text/javascript"></script>
 <script>
   const PrivateKey = sparkscore.PrivateKey;
   const privateKey = new PrivateKey();
@@ -64,8 +64,8 @@ Some functionality is implemented as a module that can be installed separately:
 ### Development & Tests
 
 ```sh
-git clone https://github.com/sparksevo/sparkscore-lib
-cd sparkscore-lib
+git clone https://github.com/m0r4k/bitcore-lib-sparks
+cd bitcore-lib-sparks
 npm install
 ```
 
@@ -111,7 +111,7 @@ Some examples can be found [here](docs/examples.md), below is a list of direct l
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/sparksevo/sparkscore-lib/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/m0r4k/bitcore-lib-sparks/blob/master/CONTRIBUTING.md) file.
 
 ## License
 

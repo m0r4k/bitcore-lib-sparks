@@ -1,6 +1,6 @@
-# Contributing to sparkscore-lib
+# Contributing to bitcore-lib-sparks
 
-We're working hard to make *sparkscore-lib* the most powerful JavaScript library for working with Sparks. Our goal is to have *sparkscore-lib* be a library that can be used by anyone interested in Sparks, and to level expertise differences with great design and documentation.
+We're working hard to make *bitcore-lib-sparks* the most powerful JavaScript library for working with Sparks. Our goal is to have *bitcore-lib-sparks* be a library that can be used by anyone interested in Sparks, and to level expertise differences with great design and documentation.
 
 ## Community
 
@@ -18,7 +18,7 @@ Ideally, please make sure to run:
 
 ## Design Guidelines
 
-These are some global design goals in sparkscore-lib that any change must adhere.
+These are some global design goals in bitcore-lib-sparks that any change must adhere.
 
 ### D1 - Naming Matters
 
@@ -89,7 +89,7 @@ var bufferUtil = require('./util/buffer');
 
 #### G7 - Standard Methods
 
-When possible, sparkscore-lib objects should have standard methods on an instance prototype:
+When possible, bitcore-lib-sparks objects should have standard methods on an instance prototype:
 * `toObject/toJSON` - A plain JavaScript object that `JSON.stringify` can call
 * `toString` - A string representation of the instance
 * `toBuffer` - A hex Buffer
@@ -99,7 +99,7 @@ These should have a matching static method that can be used for instantiation:
 * `fromString` - Should be able to instantiate with output from `toString`
 * `fromBuffer` - Should likewise be able to instantiate from output from `toBuffer`
 
-`JSON.stringify` and `JSON.parse` are expected to be handled outside of the scope of sparkscore-lib methods. For example, calling `JSON.stringify` on an sparkscore-lib object will behave as expected and call `transaction.toJSON()` and then stringify it:
+`JSON.stringify` and `JSON.parse` are expected to be handled outside of the scope of bitcore-lib-sparks methods. For example, calling `JSON.stringify` on an bitcore-lib-sparks object will behave as expected and call `transaction.toJSON()` and then stringify it:
 
 ```javascript
 var transactionString = JSON.stringify(transaction);
@@ -243,7 +243,7 @@ git checkout -b remove/some-file
 
 We expect pull requests to be rebased to the master branch before merging:
 ```sh
-git remote add dashevo git@github.com:sparksevo/sparkscore-lib.git
+git remote add dashevo git@github.com:sparksevo/bitcore-lib-sparks.git
 git pull --rebase dashevo master
 ```
 
@@ -255,11 +255,11 @@ git push origin your_branch_name
 git push origin feature/some-new-stuff
 git push origin fix/some-bug
 ```
-Finally go to [github.com/sparksevo/sparkscore-lib](https://github.com/sparksevo/sparkscore-lib) in your web browser and issue a new pull request.
+Finally go to [github.com/m0r4k/bitcore-lib-sparks](https://github.com/m0r4k/bitcore-lib-sparks) in your web browser and issue a new pull request.
 
-Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of sparkscore-lib.
+Main contributors will review your code and possibly ask for changes before your code is pulled in to the main repository.  We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of bitcore-lib-sparks.
 
 If you have any questions feel free to post them to
-[github.com/sparksevo/sparkscore-lib/issues](https://github.com/sparksevo/sparkscore-lib/issues).
+[github.com/m0r4k/bitcore-lib-sparks/issues](https://github.com/m0r4k/bitcore-lib-sparks/issues).
 
 Thanks for your time and code!
