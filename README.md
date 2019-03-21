@@ -1,7 +1,7 @@
 # Sparkscore Library
 
 [![Build Status](https://img.shields.io/travis/sparksevo/sparkscore-lib.svg?branch=master)](https://travis-ci.org/sparksevo/sparkscore-lib)
-[![NPM Package](https://img.shields.io/npm/v/@sparksevo/sparkscore-lib.svg)](https://www.npmjs.org/package/@sparksevo/sparkscore-lib)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-lib-sparks.svg)](https://www.npmjs.org/package/bitcore-lib-sparks)
 
 > A pure and powerful JavaScript Sparks library.
 
@@ -19,7 +19,7 @@ Sparks is a powerful new peer-to-peer platform for the next generation of financ
 ### NodeJS
 
 ```
-npm install @sparksevo/sparkscore-lib
+npm install bitcore-lib-sparks
 ```
 
 ### Browser

@@ -1,5 +1,5 @@
 {
-  "name": "@sparksevo/sparkscore-lib",
+  "name": "bitcore-lib-sparks",
   "version": "0.16.8",
   "description": "A pure and powerful JavaScript Sparks library.",
   "author": "Sparks Core Group, Inc. <dev@sparks.org>",
