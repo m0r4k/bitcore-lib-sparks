@@ -2,8 +2,8 @@ sparkscore Library
 ================
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-lib-sparks.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib-sparks)
-[![Build Status](https://img.shields.io/travis/sparksevo/sparkscore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/sparksevo/sparkscore-lib)
-[![Coverage Status](https://img.shields.io/coveralls/sparksevo/sparkscore-lib.svg?style=flat-square)](https://coveralls.io/github/sparksevo/sparkscore-lib?branch=master)
+[![Build Status](https://img.shields.io/travis/sparksevo/bitcore-lib-sparks.svg?branch=master&style=flat-square)](https://travis-ci.org/sparksevo/bitcore-lib-sparks)
+[![Coverage Status](https://img.shields.io/coveralls/sparksevo/bitcore-lib-sparks.svg?style=flat-square)](https://coveralls.io/github/sparksevo/bitcore-lib-sparks?branch=master)
 
 A pure and powerful JavaScript sparks library.
 
@@ -19,7 +19,7 @@ npm install bitcore-lib-sparks
 
 ### Browser
 
-See the section below to generate your own bundle, or download the pre-generated [minified file](dist/sparkscore-lib.min.js)
+See the section below to generate your own bundle, or download the pre-generated [minified file](dist/bitcore-lib-sparks.min.js)
 
 
 ## Docs
@@ -60,7 +60,7 @@ Some functionality is implemented as a module that can be installed separately:
 
 * [Payment Protocol Support](https://github.com/sparksevo/sparkscore-payment-protocol)
 * [Peer to Peer Networking](https://github.com/sparksevo/sparkscore-p2p)
-* [sparks Core JSON-RPC](https://github.com/sparksevo/sparksd-rpc)
+* [sparks Core JSON-RPC](https://github.com/sparksevo/bitcored-rpc-sparks)
 * [Payment Channels](https://github.com/sparksevo/sparkscore-channel)
 * [Mnemonics](https://github.com/sparksevo/sparkscore-mnemonic)
 * [Elliptical Curve Integrated Encryption Scheme](https://github.com/sparksevo/bitcore-ecies-sparks)
@@ -68,22 +68,22 @@ Some functionality is implemented as a module that can be installed separately:
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/sparksevo/sparkscore-lib/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/sparksevo/bitcore-lib-sparks/blob/master/CONTRIBUTING.md) file.
 
 ## Building the Browser Bundle
 
-To build a sparkscore-lib full bundle for the browser:
+To build a bitcore-lib-sparks full bundle for the browser:
 
 ```sh
 npm run build
 ```
 
-This will generate files named `sparkscore-lib.js` and `sparkscore-lib.min.js` in the `dist/` folder.
+This will generate files named `bitcore-lib-sparks.js` and `bitcore-lib-sparks.min.js` in the `dist/` folder.
 
 ## Usage on Browser
 
 ```
-<script src='./dist/sparkscore-lib.min.js' type="text/javascript"></script>
+<script src='./dist/bitcore-lib-sparks.min.js' type="text/javascript"></script>
 <script>
   const PrivateKey = sparkscore.PrivateKey;
   const privateKey = new PrivateKey();
@@ -94,8 +94,8 @@ This will generate files named `sparkscore-lib.js` and `sparkscore-lib.min.js` i
 ## Development & Tests
 
 ```sh
-git clone https://github.com/sparksevo/sparkscore-lib
-cd sparkscore-lib
+git clone https://github.com/sparksevo/bitcore-lib-sparks
+cd bitcore-lib-sparks
 npm install
 ```
 

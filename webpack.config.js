@@ -12,7 +12,7 @@ const commonJSConfig = {
 const rawConfig = Object.assign({}, commonJSConfig, {
   output: {
     path: path.resolve(__dirname, '.'),
-    filename: 'sparkscore-lib.js',
+    filename: 'bitcore-lib-sparks.js',
     library: 'sparkscore',
     libraryTarget: 'umd',
   }
@@ -20,7 +20,7 @@ const rawConfig = Object.assign({}, commonJSConfig, {
 const uglifiedConfig = Object.assign({}, commonJSConfig, {
   output: {
     path: path.resolve(__dirname, '.'),
-    filename: 'sparkscore-lib.min.js',
+    filename: 'bitcore-lib-sparks.min.js',
     library: 'sparkscore',
     libraryTarget: 'umd',
   },
