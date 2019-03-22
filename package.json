@@ -54,8 +54,10 @@
     "elliptic": "=6.4.1",
     "inherits": "=2.0.3",
     "lodash": "^4.17.11",
+    "sha512": "=0.0.1",
+    "uglify-js-es6": "^2.8.9",
     "unorm": "^1.4.1",
-    "sha512": "=0.0.1"
+    "webpack-cli": "^3.3.0"
   },
   "devDependencies": {
     "brfs": "^2.0.1",
@@ -73,11 +75,11 @@
     "karma-webpack": "^3.0.5",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
-    "raw-loader": "^1.0.0",
+    "raw-loader": "^0.5.1",
     "sinon": "^7.2.3",
     "transform-loader": "^0.2.4",
-    "uglifyjs-webpack-plugin": "^2.1.1",
-    "webpack": "^4.29.2"
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^3.10.0"
   },
   "license": "MIT"
 }
