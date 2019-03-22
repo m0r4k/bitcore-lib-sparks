@@ -1,5 +1,5 @@
 {
-  "name": "@sparksevo/sparkscore-lib",
+  "name": "bitcore-lib-sparks",
   "version": "0.15.6",
   "description": "A pure and powerful JavaScript sparks library.",
   "author": "BitPay <dev@bitpay.com>",
@@ -89,12 +89,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sparksevo/sparkscore-lib.git"
+    "url": "https://github.com/sparksevo/bitcore-lib-sparks.git"
   },
   "bugs": {
-    "url": "https://github.com/sparksevo/sparkscore-lib/issues"
+    "url": "https://github.com/sparksevo/bitcore-lib-sparks/issues"
   },
-  "homepage": "https://github.com/sparksevo/sparkscore-lib",
+  "homepage": "https://github.com/sparksevo/bitcore-lib-sparks",
   "browser": {
     "request": "browser-request"
   },
