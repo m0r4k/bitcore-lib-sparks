@@ -1,5 +1,0 @@
-./node_modules/*
-bitcore-lib-sparks.js
-bitcore-lib-sparks.min.js
-./test/*
-./dist/*
